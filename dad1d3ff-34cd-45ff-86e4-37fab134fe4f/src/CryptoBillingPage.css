@@ -1,0 +1,274 @@
+.page-container {
+  min-height: 100vh;
+  background-color: #111827;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #60a5fa;
+  margin-bottom: 1rem;
+}
+
+.page-subtitle {
+  font-size: 1.125rem;
+  color: #9ca3af;
+}
+
+.main-container {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid #374151;
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #374151;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #60a5fa;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  color: #d1d5db;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  background-color: #374151;
+  border: 1px solid #4b5563;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  color: white;
+}
+
+.wallet-info {
+  background-color: #374151;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.wallet-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+
+.wallet-label {
+  color: #d1d5db;
+}
+
+.wallet-value {
+  color: white;
+}
+
+.wallet-value.address {
+  word-break: break-all;
+}
+
+.pay-button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.pay-button.active {
+  background-color: #2563eb;
+}
+
+.pay-button.active:hover {
+  background-color: #1d4ed8;
+}
+
+.pay-button.disabled {
+  background-color: #4b5563;
+  cursor: not-allowed;
+}
+
+.search-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  flex: 1;
+  background-color: #374151;
+  border: 1px solid #4b5563;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  color: white;
+}
+
+.status-select {
+  background-color: #374151;
+  border: 1px solid #4b5563;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  color: white;
+}
+
+.transactions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.transaction-item {
+  background-color: #374151;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.transaction-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.transaction-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.field-label {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.field-value {
+  color: white;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.status-completed {
+  background-color: #166534;
+  color: #bbf7d0;
+}
+
+.status-pending {
+  background-color: #854d0e;
+  color: #fef08a;
+}
+
+.status-failed {
+  background-color: #991b1b;
+  color: #fecaca;
+}
+
+.status-default {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-container {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  max-width: 28rem;
+  width: 100%;
+  margin: 0 1rem;
+  position: relative;
+  z-index: 10;
+  border: 1px solid #374151;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #60a5fa;
+  margin-bottom: 1rem;
+}
+
+.confirmation-details {
+  background-color: #374151;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.confirmation-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.info-label {
+  color: #9ca3af;
+}
+
+.info-value {
+  color: white;
+}
+
+.info-value.address {
+  word-break: break-all;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.cancel-button,
+.confirm-button {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.2;
+}
