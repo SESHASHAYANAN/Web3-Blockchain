@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐳 **Orca Platform** 🌊  
+# 🐳 **Orca Platform V1.0** 🌊  
 ### *Decentralized AI • Social Automation • Algorithmic Trading*  
 **Built on Sonic Blockchain** 🔗⚡  
 
