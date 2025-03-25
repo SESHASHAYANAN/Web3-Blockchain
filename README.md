@@ -1,5 +1,4 @@
 <div align="center">
-
 # 🐳 **Orca Platform V1.00** 🌊  
 ### *Decentralized AI Training • Social Automation • Algorithmic Trading*  
 **Built on Sonic Blockchain** 🔗⚡  
